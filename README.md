@@ -8,19 +8,31 @@ Predict-Credit-Card_DefaultPay
 Predict Credit Card Default Payment
 Final Project of Data Mining Course - Big Data Analysis
 
-A manager at the bank is disturbed with more and more customers leaving their credit card services. They would really appreciate if one could predict for them who is gonna get churned so they can proactively go to the customer to provide them better services and turn customers' decisions in the opposite direction
 
-This dataset is from a website with the URL as https://leaps.analyttica.com/home. Now, this dataset consists of 10,000 customers mentioning their age, salary, marital_status, credit card limit, credit card category, etc. There are nearly 18 features.
+default of credit card clients Data Set
+Sources
+URL : https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
+This research aimed at the case of customer default payments in Taiwan and compares the predictive accuracy of probability , sensitivity, Specificity ,lift, AUC ( Area Under the curve) of default among these data mining methods. There are :
+1. DecisionTrees(Entropy&ProbChisq)
+2. Neuralnetwork(3N&15N)
+3. Regression(LinearRegression,LogisticRegression(logit),LogisticRegression(probit)) 4. Gradient Boosting ( N =50,Depth = 2 & N 100 ,Depth = 6 )
+5. ModelComparison
+Our Data contains : 3000 observation and 24 features/variables 
 
-From this data set we can predict the customers who are going to stop using credit cards. Using this model/result, the company can make offer to employess to retain them.
+Training : 60 %
+Validation : 40 %
 
-Attribute Information
+
+
+# Attribute Information
 
 This research employed a binary variable, default payment (Yes = 1, No = 0), as the response variable. This study reviewed the literature and used the following 23 variables as explanatory variables:		
 Attribute	Description	Value
-X1	 Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.	 Amount of the given credit (NT dollar)
-X2	Gender 	(1 = male; 2 = female).
-X3	Education 	(1 = graduate school; 2 = university; 3 = high school; 4 = others).
+
+
+</n> X1	 Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.	 Amount of the given credit (NT dollar)
+</n> X2	Gender 	(1 = male; 2 = female).
+</n> X3	Education 	(1 = graduate school; 2 = university; 3 = high school; 4 = others).
 X4	Marital status 	(1 = married; 2 = single; 3 = others).
 X5	Age 	(year)
 X6	History of past payment. Tracked the past monthly payment records (from April to September, 2005) as follows: X6 = the repayment status in September, 2005; 	The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; . . .; 8 = payment delay for eight months; 9 = payment delay for nine months and above.
