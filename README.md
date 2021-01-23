@@ -12,7 +12,8 @@
 default of credit card clients Data Set
 Sources
 URL : https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
-This research aimed at the case of customer default payments in Taiwan and compares the predictive accuracy of probability , sensitivity, Specificity ,lift, AUC ( Area Under the curve) of default among these data mining methods. There are :
+This research aimed at the case of customer default payments in Taiwan and compares the predictive accuracy of probability ,confusion matrix, AUC ( Area Under the curve).
+There are data mining methods I will use:
 1. Regression(LinearRegression,LogisticRegression)
 2. kNN ( K-Nearest Neighbors)
 3. SVM ( Support Vector Machine)
