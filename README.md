@@ -1,10 +1,10 @@
 # Final Project of Data Mining Course - Big Data Analysis
 # Predict_Credit_Card_DefaultPay
 ---
- categories: 
+ - categories: 
  - machine learning
- date: "2020-01-12"
- title: Predict Credit Card Pay - Final Project of Data Mining Course - Big Data Analysis
+ - date: "2020-01-24"
+ - title: Predict Credit Card Pay - Final Project of Data Mining Course - Big Data Analysis
  ---
 
 
