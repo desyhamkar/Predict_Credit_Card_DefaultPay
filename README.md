@@ -13,17 +13,12 @@ default of credit card clients Data Set
 Sources
 URL : https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients
 This research aimed at the case of customer default payments in Taiwan and compares the predictive accuracy of probability , sensitivity, Specificity ,lift, AUC ( Area Under the curve) of default among these data mining methods. There are :
-1. DecisionTrees(Entropy&ProbChisq)
-2. Neuralnetwork(3N&15N)
-3. Regression(LinearRegression,LogisticRegression(logit),LogisticRegression(probit)) 4. Gradient Boosting ( N =50,Depth = 2 & N 100 ,Depth = 6 )
+1. Regression(LinearRegression,LogisticRegression)
+2. kNN ( K-Nearest Neighbors)
+3. SVM ( Support Vector Machine)
+4. DecisionTree
 5. ModelComparison
 Our Data contains : 3000 observation and 24 features/variables 
-
-Training : 60 %
-Validation : 40 %
-
-
-
 
  
 # Attribute Information
@@ -32,7 +27,7 @@ This research employed a binary variable, default payment (Yes = 1, No = 0), as 
 Attribute	Description	Value
 
 
-**X1**	 Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.	 Amount of the given credit (NT dollar)
+**X1**	 Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.	 Amount of the given credit (dollar)
 **X2**	Gender 	(1 = male; 2 = female).
 **X3**	Education 	(1 = graduate school; 2 = university; 3 = high school; 4 = others).
 **X4**	Marital status 	(1 = married; 2 = single; 3 = others).
